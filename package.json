@@ -1,18 +1,14 @@
 {
+  "type": "module",
   "name": "softr-ai-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
+    "express": "^4.18.2",
     "cors": "^2.8.5",
-    "express": "^5.2.1",
-    "openai": "^6.15.0"
+    "openai": "^4.8.0"
   }
 }
